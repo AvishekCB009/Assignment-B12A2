@@ -10,12 +10,59 @@
     <link rel="stylesheet" href="styles/style.css">
     <!-- TailwindCSS Script -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b73e2139ed.js" crossorigin="anonymous"></script>
+    <!-- Gfont Script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
-<body>
-    <p class="bg-amber-200">hello world!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro doloremque temporibus, eius, debitis delectus corporis eaque dignissimos illum, provident est necessitatibus inventore esse. Error veritatis placeat aperiam, molestias fugiat, nihil iste dolor, ab corrupti exercitationem quasi deleniti quibusdam ad consequatur magni consectetur cupiditate labore inventore ipsam. Sapiente totam a dolorem iusto iste ullam reiciendis rerum alias earum, perferendis fugit repudiandae, aliquam aut atque minima consequatur ipsum omnis adipisci? Aperiam commodi qui cum eaque reprehenderit quam nemo quae necessitatibus, praesentium nostrum dolorum reiciendis eos delectus nisi consectetur harum quidem optio sapiente ex doloribus numquam facere obcaecati eius ullam! Corrupti provident aspernatur consequuntur quisquam necessitatibus, similique enim blanditiis accusantium quae? Molestiae, provident ex! Temporibus corrupti iste expedita sequi. Exercitationem illum, iste dolore officiis modi quisquam expedita dignissimos quasi, in perferendis fuga veniam libero qui odit, hic odio accusantium sapiente. Nisi natus commodi beatae possimus delectus odio quas quaerat, deleniti tempore in magni, eum tempora, qui ad aliquid doloribus sed dolorum est deserunt reiciendis quasi excepturi rerum aut. Voluptate eligendi quod repellat dicta sit neque magni vitae? Obcaecati consequatur maiores quia rerum mollitia suscipit tempore, nihil explicabo distinctio nisi doloremque deleniti quae fugit eveniet quod porro? Ipsa facilis doloremque nemo animi modi dolores, quis, sint mollitia praesentium sed facere quidem voluptas? Reiciendis quia ratione ipsam, autem provident, optio dolores, facilis saepe magnam odit quisquam labore perferendis accusamus similique distinctio ducimus illum veniam? Rem repellendus eaque temporibus accusamus nihil nemo dolore, hic aliquid nisi quia nostrum sunt eum dolores molestias quam eos reprehenderit, perspiciatis eius. Neque, enim placeat. Voluptatibus velit natus, laudantium suscipit ducimus excepturi, distinctio iure dicta, optio architecto eaque facilis earum. Inventore quaerat ratione repudiandae aliquid, veniam optio non cupiditate eum, cum, modi ea qui esse necessitatibus quae voluptate ipsum odio excepturi adipisci officia obcaecati debitis! Molestias suscipit nisi vitae voluptates minima.`</p>
+<body class="bg-[#F5F8FF]">
+    <header>
+        <!-- nav section -->
+        <nav class="flex justify-between m-4 sm:ml-30 sm:mr-30 sm:mt-6">
+            <!-- website name -->
+            <div>
+                <h2>Garden</h2>
+            </div>
+            <!-- navigation items -->
+            <div class="flex gap-12 items-center inter text-base">
+                <!-- page navigation -->
+                <div class="hidden sm:flex text-[#8987A1]">
+                    <ul class="flex gap-12">
+                        <li class="hover:text-black">Home</li>
+                        <li class="hover:text-black">Shop</li>
+                        <li class="hover:text-black">About Us</li>
+                    </ul>
+                </div>
+                <!-- cart section -->
+                <div class="flex items-center gap-2.5">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart ($56)</p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+         <section>
+            <!-- hero image -->
+             <div class=" mt-7 mb-7">
+                 <div class=" mb-7 sm:mb-0">
+                     <img src="assets/hero-flower.png" alt="">
+                </div>
+                <!-- hero description -->
+                <div>
+                        <P class="text-2xl">ALWAYS<span>FRESH</span></P>
+                        <P class="text-2xl">FLOWERS</P>
+                        <P>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </P>
+                 </div>
+            </div>
+         </section>
+    </header>
 </body>
 
 </html>
