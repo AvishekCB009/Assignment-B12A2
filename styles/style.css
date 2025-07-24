@@ -27,6 +27,21 @@
   animation: spin 10s linear infinite;
 }
 
+.deal-1 {
+  background-image: url(../assets/deal-bloom.png);
+  background-size: 100% 100%
+}
+
+.deal-2 {
+  background-image: url(../assets/deal-ana.png);
+  background-size: 100% 100%
+}
+
+.deal-3 {
+  background-image: url(../assets/deal-zabo.png);
+   background-size: 100% 100%
+}
+
 .form-bg {
   background-image: url(../assets/news-letter-bg.png);
   background-size: 100% 100%
