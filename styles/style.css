@@ -26,5 +26,9 @@
  animation: spin 10s linear infinite;
 }
 
+.form-bg{
+ background-image: url(../assets/news-letter-bg.png);
+ background-size: 100% 100%
+}
 
 
