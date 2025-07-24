@@ -1,34 +1,33 @@
-.noto-serif{
+.noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-    font-variation-settings:
+  font-variation-settings:
     "wdth" 100;
 }
 
 
-.inter{
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 @keyframes spin {
-  form{
+  form {
     transform: rotate(0deg);
   }
-  to{
+
+  to {
     transform: rotate(360deg);
   }
 }
 
 .spin {
- animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
 }
 
-.form-bg{
- background-image: url(../assets/news-letter-bg.png);
- background-size: 100% 100%
+.form-bg {
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: 100% 100%
 }
-
-
